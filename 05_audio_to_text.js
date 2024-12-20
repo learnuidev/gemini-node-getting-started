@@ -2,9 +2,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const fs = require("fs");
 const mime = require("mime-types");
 const { parseInput } = require("./utils/parse-input");
-
-// Add your own api key here:
-const apiKey = `AIzaSyDU5IZekSX7GJaqOKZEC9u2vbefJMoeHFY`;
+const { apiKey } = require("./api-key");
 
 const genAI = new GoogleGenerativeAI(apiKey);
 
