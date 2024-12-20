@@ -1,0 +1,16 @@
+{
+  "name": "gemini-nodejs-getting-started",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "learnuidev@gmail.com",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "mime-types": "^2.1.35"
+  }
+}
