@@ -12,20 +12,21 @@ const model = genAI.getGenerativeModel({
 });
 
 const prompt = `
-Extract text from this audio. Please also convert the extract text into english and pinyin. Please include start and end timestamps
+Extract text from this audio. Please include start and end timestamps
 
 Format the output as a stringified JSON format like so:
 {
-"hanzi": "...",
-"pinyin": "...",
+"text": "...",
 "start": "..",
 "end": ".."
 }
 `;
+
+const audioName = `grandma.m4a`;
 const audioMetadata = {
   inlineData: {
-    data: Buffer.from(fs.readFileSync("忙碌的一天.mp3")).toString("base64"),
-    mimeType: mime.lookup("忙碌的一天.mp3"),
+    data: Buffer.from(fs.readFileSync(audioName)).toString("base64"),
+    mimeType: mime.lookup(audioName),
   },
 };
 
@@ -41,7 +42,11 @@ model
     const parsed = parseInput(text);
     // const parsed = {};
 
-    console.log("RESP", JSON.stringify({ ...resp, parsed }, null, 4));
+    const jsonResp = JSON.stringify({ ...resp, parsed }, null, 4);
+
+    fs.writeFileSync(`./${audioName}_${Date.now()}.json`, jsonResp);
+
+    console.log("RESP", jsonResp);
   });
 
 const resp1 = {
