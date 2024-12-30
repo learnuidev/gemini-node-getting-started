@@ -1,0 +1,114 @@
+{
+    "response": {
+        "candidates": [
+            {
+                "content": {
+                    "parts": [
+                        {
+                            "text": "```json\n[\n  {\n    \"text\": \"支書， 這個紅旗還沒有到要插的時候啊。\",\n    \"start\": \"0.95\",\n    \"end\": \"4.59\"\n  },\n  {\n    \"text\": \"霜印姐家的榨油機才剛剛轉起來，\",\n    \"start\": \"4.69\",\n    \"end\": \"7.17\"\n  },\n  {\n    \"text\": \"離脫平還有一段距離。\",\n    \"start\": \"7.35\",\n    \"end\": \"9.12\"\n  },\n  {\n    \"text\": \"哎喲,紅書記,這個機器一轉起來,不就等於脫平了嗎?\",\n    \"start\": \"9.34\",\n    \"end\": \"13.68\"\n  },\n  {\n    \"text\": \"這 這樣做也不不冒進吧。\",\n    \"start\": \"13.68\",\n    \"end\": \"16.69\"\n  },\n  {\n    \"text\": \"不得， 我們這張地圖上的進度必須是實打實的,不但要真正脫平了，而且 一定要沒有反平的危險,才可以換上。\",\n    \"start\": \"16.69\",\n    \"end\": \"27.09\"\n  },\n  {\n    \"text\": \"嗯？書記說的對啊。\",\n    \"start\": \"27.09\",\n    \"end\": \"31.03\"\n  },\n  {\n    \"text\": \"都回來了？\",\n    \"start\": \"31.46\",\n    \"end\": \"32.52\"\n  },\n  {\n    \"text\": \"回來了,來，大家坐,有幾個事情我們要商量一下。\",\n    \"start\": \"32.52\",\n    \"end\": \"37.30\"\n  },\n  {\n    \"text\": \"哎，老李呢？ 沒上你們車啊？\",\n    \"start\": \"38.30\",\n    \"end\": \"42.50\"\n  },\n  {\n    \"text\": \"沒有。\",\n    \"start\": \"42.50\",\n    \"end\": \"43.41\"\n  },\n  {\n    \"text\": \"下來了,我去吧,我開車快,我走了,小姑娘可以哦,情力也好。\",\n    \"start\": \"43.41\",\n    \"end\": \"51.13\"\n  },\n  {\n    \"text\": \"書記啊,這兩個小姑娘真的很好啊。\",\n    \"start\": \"51.13\",\n    \"end\": \"54.37\"\n  },\n  {\n    \"text\": \".\",\n    \"start\": \"55.84\",\n    \"end\": \"56.28\"\n  }\n]\n```"
+                        }
+                    ],
+                    "role": "model"
+                },
+                "finishReason": "STOP",
+                "safetyRatings": [
+                    {
+                        "category": "HARM_CATEGORY_HATE_SPEECH",
+                        "probability": "NEGLIGIBLE"
+                    },
+                    {
+                        "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                        "probability": "NEGLIGIBLE"
+                    },
+                    {
+                        "category": "HARM_CATEGORY_HARASSMENT",
+                        "probability": "NEGLIGIBLE"
+                    },
+                    {
+                        "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                        "probability": "NEGLIGIBLE"
+                    }
+                ],
+                "avgLogprobs": -0.2551768770886423
+            }
+        ],
+        "usageMetadata": {
+            "promptTokenCount": 2402,
+            "candidatesTokenCount": 699,
+            "totalTokenCount": 3101
+        },
+        "modelVersion": "gemini-2.0-flash-exp"
+    },
+    "parsed": [
+        {
+            "text": "支書， 這個紅旗還沒有到要插的時候啊。",
+            "start": "0.95",
+            "end": "4.59"
+        },
+        {
+            "text": "霜印姐家的榨油機才剛剛轉起來，",
+            "start": "4.69",
+            "end": "7.17"
+        },
+        {
+            "text": "離脫平還有一段距離。",
+            "start": "7.35",
+            "end": "9.12"
+        },
+        {
+            "text": "哎喲,紅書記,這個機器一轉起來,不就等於脫平了嗎?",
+            "start": "9.34",
+            "end": "13.68"
+        },
+        {
+            "text": "這 這樣做也不不冒進吧。",
+            "start": "13.68",
+            "end": "16.69"
+        },
+        {
+            "text": "不得， 我們這張地圖上的進度必須是實打實的,不但要真正脫平了，而且 一定要沒有反平的危險,才可以換上。",
+            "start": "16.69",
+            "end": "27.09"
+        },
+        {
+            "text": "嗯？書記說的對啊。",
+            "start": "27.09",
+            "end": "31.03"
+        },
+        {
+            "text": "都回來了？",
+            "start": "31.46",
+            "end": "32.52"
+        },
+        {
+            "text": "回來了,來，大家坐,有幾個事情我們要商量一下。",
+            "start": "32.52",
+            "end": "37.30"
+        },
+        {
+            "text": "哎，老李呢？ 沒上你們車啊？",
+            "start": "38.30",
+            "end": "42.50"
+        },
+        {
+            "text": "沒有。",
+            "start": "42.50",
+            "end": "43.41"
+        },
+        {
+            "text": "下來了,我去吧,我開車快,我走了,小姑娘可以哦,情力也好。",
+            "start": "43.41",
+            "end": "51.13"
+        },
+        {
+            "text": "書記啊,這兩個小姑娘真的很好啊。",
+            "start": "51.13",
+            "end": "54.37"
+        },
+        {
+            "text": ".",
+            "start": "55.84",
+            "end": "56.28"
+        }
+    ]
+}
