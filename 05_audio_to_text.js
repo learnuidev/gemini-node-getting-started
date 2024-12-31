@@ -22,7 +22,7 @@ Format the output as a stringified JSON format like so:
 }
 `;
 
-const audioName = `13_01.m4a`;
+const audioName = `xi2024.mp3`;
 const audioMetadata = {
   inlineData: {
     data: Buffer.from(fs.readFileSync(audioName)).toString("base64"),
